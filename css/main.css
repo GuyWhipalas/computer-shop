@@ -1,0 +1,357 @@
+@font-face{
+  font-family: NotoSansThai-Regular;
+  src: url(../fonts/NotoSansThai-Regular.ttf);
+  font-style: normal;
+  font-variant:initial;
+}  
+@font-face{
+  font-family: NotoSansThai-Medium;
+  src: url(../fonts/NotoSansThai-Medium.ttf);
+  font-style: normal;
+  font-variant:initial;
+}    
+@font-face{
+  font-family: NotoSansThai-SemiBold;
+  src: url(../fonts/NotoSansThai-SemiBold.ttf);
+  font-style: normal;
+  font-variant:initial;
+}    
+@font-face{
+  font-family: NotoSansThai-Bold;
+  src: url(../fonts/NotoSansThai-Bold.ttf);
+  font-style: normal;
+  font-variant:initial;
+}   
+body{
+  font-family: NotoSansThai-Regular; 
+  background-color: black;
+}
+a:hover{
+  text-decoration: none;
+}  
+   
+@media only screen and (max-width: 1024px) { /* MOBILE */
+  .mb-x{
+    display: none !important;
+  }  
+}
+@media only screen and (min-width: 1025px) { /* PC */
+  .pc-x{
+    display: none !important;
+  }  
+} 
+header nav{
+  height: 80px; 
+  background: transparent;
+  z-index: 11;
+}
+header nav .dropdown-menu{
+  min-width: 250px;
+  background-color: #000;
+}
+header nav .dropdown-item{
+  color: #fff;
+}
+header .navbar-brand{
+  color: #fff !important;
+  font-size: 30px !important;
+}
+header nav .navbar-collapse .navbar-nav .nav-item {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+header nav .navbar-collapse .navbar-nav .nav-item .nav-link{
+  font-family: NotoSansThai-Regular;
+  font-weight: 400; 
+  font-size: 20px;
+  line-height: 40px; 
+  color: rgba(255, 255, 255, .7);
+  transition: .33s all ease-out;
+}
+header nav .navbar-collapse .navbar-nav .nav-item.active .nav-link{  
+  color: #fff;
+  font-family: NotoSansThai-SemiBold;
+  font-weight: 800;
+}
+header nav .navbar-collapse .navbar-nav .nav-item:hover .nav-link{   
+  color: #fff; 
+}
+.navbar-brand img{
+  height: 55px;
+}
+.btn1{
+  background: linear-gradient(277.71deg, #224096 -14.25%, #3A8EF6 132.86%);
+  border-radius: 24px;
+  padding: 14px 22px; 
+  height: 48px;
+  font-size: 20px;
+  line-height: 20px; 
+  font-family: NotoSansThai-SemiBold; 
+  color: #FFFFFF;
+  transition: .33s all ease-out; 
+}
+.btn1:hover{
+  background: #3AA3F4;
+  color: #FFFFFF;
+}
+header nav .navbar-collapse .navbar-nav .flag img{   
+  margin-top: 5px;
+  height: 40px;
+}
+header nav .navbar-brand{   
+  margin-top: 5px;
+  height: 40px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 25px; 
+  color: #18181B;
+  font-family: NotoSansThai-Regular;
+}
+header nav .navbar-brand img{   
+  margin-top: -5px;
+} 
+footer{
+  height: 320px;
+  background: #000;
+  padding-top: 56px;
+}
+footer h1{
+  font-family: NotoSansThai-Regular;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px; 
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+footer p{
+  font-family: NotoSansThai-Regular;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+footer .social{ 
+  margin-right: 15px;
+}
+footer .social img{
+  height: 32px; 
+}
+footer h3{
+  font-family: NotoSansThai-Regular;
+  font-weight: 600; 
+  font-size: 20px;
+  line-height: 24px; 
+  color: #FFFFFF; 
+  margin-bottom: 24px;
+  margin-top: 10px;
+}
+footer h3 span{
+  font-family: NotoSansThai-SemiBold; 
+}
+footer ul{
+  list-style: none;
+  padding-left: 0px;
+}
+footer ul li{
+  margin-bottom: 15px;
+}
+footer ul li a{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px; 
+  color: #FFFFFF;
+  font-family: NotoSansThai-Regular; 
+  transition: .33s all ease-out;
+}
+footer ul li a span{ 
+  font-family: NotoSansThai-Regular;
+  font-weight: 400;
+}
+footer ul li a:hover{ 
+  color: #2EC7FB; 
+}
+footer ul li img{
+  width: 32px;
+  margin-right: 8px;
+}
+footer hr{
+  border-bottom: 1px solid #FFFFFF;
+}
+footer h6{
+  font-family: NotoSansThai-Regular;  
+  font-size: 14px;
+  line-height: 16px; 
+  color: #FFFFFF;
+  text-align: center;
+} 
+.sec1{
+  height: 400px;
+  background: url(../images/1.jpg) !important;
+  background-position: center bottom !important;
+  background-size: 100% auto !important;
+  background-repeat: no-repeat !important;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec1 h1{ 
+  position: relative;
+  z-index: 11;
+  color: #fff;
+}
+.sec1:after{
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .5);
+  width: 100%;
+  height: 400px;
+}
+.sec2{ 
+  height: 70px;
+  background: url(../images/g2.jpg) !important;
+  background-position: center !important;
+  background-size: 100% auto !important;
+  background-repeat: no-repeat !important;
+  color: #fff;
+  font-size: 20px;
+  line-height: 70px;
+}
+.sec3{ 
+  height: 200px;
+  background: url(../images/g4.png) !important;
+  background-position: center !important;
+  background-size:  100% auto  !important;
+  background-repeat: no-repeat !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.sec3 .btn{ 
+  color: #222;
+  background-color: #fff;
+  margin-left: 10px;
+  margin-right: 10px;
+  min-width: 140px;
+}
+.sec3 .btn-light{ 
+  color: #fff;
+  border: 1px solid #fff; 
+  min-width: 305px;
+  background-color: transparent;
+}
+.sec4 .carousel-inner .carousel-item img{
+  object-fit: cover;
+  height: 500px;
+  width: 100%;
+}  
+.sec5{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}   
+.sec6 .carousel-inner .carousel-item img{
+  object-fit: cover;
+  height: 800px;
+  width: 100%;
+}   
+.sec-amd{ 
+  background: url(../images/amd.png) !important; 
+  background-position: center !important; 
+  background-size: 100% auto !important;
+  background-repeat: no-repeat !important;
+}
+.sec1.sec-amd:after{ 
+  background-color: rgba(0, 0, 0, .2); 
+}
+.sec-box{ 
+  height: 150px;
+  background: url(../images/sccc.png) !important;
+  background-position: center !important;
+  background-size:  100% auto  !important;
+  background-repeat: no-repeat !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+.sec-pro{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #101010;
+}
+.sec-gamimg{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #fff;
+  padding-bottom: 100px;
+}
+.product h4{
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
+.product img{
+  height: 400px;
+  object-fit: contain;
+  width: 100%;
+}  
+.sec-game{ 
+  background: url(../images/game.jpg) !important; 
+  background-position: center !important; 
+  background-size: 100% auto !important;
+  background-repeat: no-repeat !important;
+}
+.sec1.sec-game:after{ 
+  background-color: rgba(0, 0, 0, .5); 
+} 
+.gaming-box{
+  position: relative;
+  height: 300px;   
+}  
+.gaming-box img{ 
+  object-fit: cover;
+  width: 100%;
+}  
+.gaming-box .btn-light{ 
+  width: 100%;
+  color: #222;
+  border: 1px solid #222;  
+  background-color: transparent; 
+}
+
+
+@media only screen and (max-width: 1024px) { /* MOBILE */ 
+  header nav{
+    height: 60px;  
+  }
+  header nav .navbar-toggler{
+    color: #fff;
+  } 
+  header nav .navbar-collapse{
+    background-color: #000;
+  } 
+  header nav .nav-item .nav-link{ 
+    padding-left: 20px;
+    text-align: left;
+  } 
+  .sec1 {
+    height: 250px; 
+    background-size: 100% auto !important;
+  }
+  .sec1:after {
+    height: 250px; 
+  }
+  .sec4 .carousel-inner .carousel-item img{ 
+    height: 180px; 
+  }  
+  .sec6 .carousel-inner .carousel-item img{ 
+    height: 200px; 
+  }  
+}
